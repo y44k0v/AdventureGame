@@ -32,9 +32,31 @@ let playerStats = {
   inventory: inventory,
 };
 
+console.log("=================================");
+console.log("       The Dragon's Quest        ");
+console.log("=================================");
+console.log("\nYour quest: Defeat the dragon in the mountains!");
+
+
 // Display welcome message and starting stats
 console.log(`Welcome, ${playerName}! Your adventure begins now.`);
 console.log("Starting Stats:");
 console.log(`Health: ${playerHealth}`);
 console.log(`Gold: ${playerGold}`);
 console.log(`Location: ${currentLocation}`);
+
+// Create variable to track weapon damage
+let weaponDamage = 0;
+console.log("Your weapon damge: " + weaponDamage);
+console.log("When you buy a sword, weapon damage will increase to 10!");
+
+
+// Setup a simple monster defense value
+let monsterDefense = 5;
+console.log("Moster defense: " + monsterDefense);
+console.log("Monsters can withstand some damage in combat!");
+
+// Set healing potion restoration value
+let healingPotionValue = 30;
+console.log("Healing potion value: " + healingPotionValue);
+console.log("A potion will restore 30 health!");
